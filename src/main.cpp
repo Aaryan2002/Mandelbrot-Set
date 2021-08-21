@@ -90,7 +90,7 @@ void plot()
     {
         for (int y = 0; y <= SCREEN_HEIGHT; y++)
         {
-            std::tuple<int, int, int> rgb = mandelbrot.get_rgb(x, y);
+            rgb = mandelbrot.get_rgb(x, y);
             pixels[y * SCREEN_WIDTH + x] = SDL_MapRGB(&pixelFormat, std::get<0>(rgb), std::get<1>(rgb), std::get<2>(rgb));
         }
     }

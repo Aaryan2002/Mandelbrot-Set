@@ -24,7 +24,7 @@ This is my Capstone project for the Udacity C++ nanodegree.In this project, the 
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./Mandelbrot`.
-
+![Result](/images/result.png)
 ## File and Class Structure
 The src folder of the project contains 2 cpp files - main and mandelbrot. In main.cpp, the entire logic to display the mandelbrot set using sdl2 is handled.
 
